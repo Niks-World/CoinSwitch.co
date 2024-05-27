@@ -91,6 +91,8 @@ margin-left: 80px;
     /* justify-content: space-between;
 display: grid; */
 margin-bottom: 20px;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
     
 
     /* border: 1px solid red; */
@@ -119,10 +121,12 @@ margin-bottom: 20px;
 }
  .box.:hover .card:not(:hover) {
     opacity: 0.3; }/* Fade out non-hovered cards */
- /*} */
 
+    .box p{
+      font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
  /* banner 4 */
-
  #banner4{
     /* border: 1px solid black;  */
     border: none;
@@ -175,4 +179,34 @@ opacity: 0.4;
     /* background-color: cadetblue; */
     color: cadetblue;
 
+}
+
+#banner5 {
+/* border: 1px solid red; */
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin: auto;
+margin-bottom: 200px;
+margin-top: 40px;
+padding-left: 40px;
+}
+#banner5 img{
+  height: 350px;
+  width: 350px;
+  border-radius: 20px;
+}
+#banner5 >div{
+  /* border: 1px solid red; */
+  display: grid;
+/* grid-template-columns: repeat(3, 1fr); */
+  width: 250px;
+height: 300px;
+}
+#banner5 p{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banner5 span{
+  font-style: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

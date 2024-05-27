@@ -1,3 +1,4 @@
+/* nav  */
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -12,46 +13,51 @@ nav ul {
     text-decoration: none;
     color: #333;
   }
-  /* new css */
-  
-   body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+  nav ul button{
+    /* border: 1px solid red; */
+    border: none;
+    background-color: chartreuse;
+    border-radius: 10px;
+    width: 120px;
+
   }
-  
-  .navbar {
-      background-color: #333;
-      overflow: hidden;
-      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  /* new css  banner */
+
+  #banner1{
+    background-color: #e9efff;
+    display: grid;
+    border-radius: 20px;
+    
   }
-  
-  .navbar ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  #banner1 >h1{
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding-left: 200px;
   }
-  
-  .navbar ul li {
-      float: left;
-      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  #banner1 p{
+    /* border: 1px solid red; */
+    padding-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+
   }
-  
-  .navbar ul li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
+  #banner1 img{
+    /* border: 1px solid red; */
+    padding-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
   }
-  
-  .navbar ul li a:hover {
-      background-color: #575757;
-  }
-  
-  .navbar ul li a i {
-      margin-right: 8px;
-  }
+#banner1 button{
+    border: 1px solid red;
+    height: 30px;
+    width: 120px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: antiquewhite;
+    background-color: black;
+    border-radius: 10px;
+
+}
+ 

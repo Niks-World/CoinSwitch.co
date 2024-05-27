@@ -89,25 +89,25 @@ margin-left: 80px;
     margin: 10px;
     transition: opacity 0.3s ease;
     display: grid;
-    border: 1px solid red;
+    /* border: 1px solid red; */
  }
  .box > div{
     width: 150px;
     height: 200px;
     margin: 10px;
     display: grid;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
 
     
-        border: 1px solid red;
+        /* border: 1px solid red; */
 
  }
- /* .box div:hover {
+  .box div:hover {
     opacity: 1;
-    border: 1px solid red;
+    border: 1px solid rgb(8, 13, 171);
 
 }
  .box.:hover .card:not(:hover) {
-    opacity: 0.3; /* Fade out non-hovered cards */
+    opacity: 0.3; }/* Fade out non-hovered cards */
  /*} */
